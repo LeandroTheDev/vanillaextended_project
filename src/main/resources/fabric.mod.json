@@ -1,41 +1,37 @@
 {
-  "schemaVersion": 1,
-  "id": "vanillaextended",
-  "version": "${version}",
-
-  "name": "Vanilla Extended",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "BoboDev"
-  ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-
-  "license": "BoboDev License",
-  "icon": "assets/modid/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.bobodev.vanillaextended.Main"
-    ],
-    "client": [
-      "net.bobodev.vanillaextended.VanillaExtendedClient"
-    ]
-  },
-  "mixins": [
-    "vanillaextended.mixins.json"
-  ],
-
-  "depends": {
-    "fabricloader": ">=0.14.14",
-    "fabric-api": "*",
-    "minecraft": "~1.19.3",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
-  }
+	"schemaVersion": 1,
+	"id": "vanillaextended",
+	"version": "${version}",
+	"name": "Vanilla Extended",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"BoboDev"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "BoboDev",
+	"icon": "assets/template-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bobodev.vanillaextended.VanillaExtended"
+		],
+		"client": [
+			"net.bobodev.vanillaextended.VanillaExtendedClient"
+		]
+	},
+	"mixins": [
+		"vanillaextended.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
 }

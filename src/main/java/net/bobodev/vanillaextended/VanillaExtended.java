@@ -4,8 +4,8 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Main implements ModInitializer {
-	public static final java.lang.String MOD_ID = "vanillaextended";
+public class VanillaExtended implements ModInitializer {
+	public static final java.lang.String MOD_ID = "vanilla-extended";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
